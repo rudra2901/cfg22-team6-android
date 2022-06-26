@@ -2,49 +2,34 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
     tools:context=".LoginActivity">
 
-    <EditText
-        android:id="@+id/emailET"
+    <Button
+        android:id="@+id/regPageBT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="12"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/passwordET"
-        android:padding="20dp"
-        android:layout_margin="20dp"
+        android:text="Register your startup"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@+id/trackRegBT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
-
-    <EditText
-        android:id="@+id/passwordET"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="12"
-        android:inputType="textPassword"
-        android:padding="20dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/signInButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailET" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/signInButton"
+        android:id="@+id/trackRegBT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-
+        android:text="Track Your Application"
+        android:background="@drawable/round_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordET" />
-
+        app:layout_constraintTop_toBottomOf="@+id/regPageBT" />
 </androidx.constraintlayout.widget.ConstraintLayout>

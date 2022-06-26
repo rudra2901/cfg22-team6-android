@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "21493594370",
+    "project_id": "gusec-a387e",
+    "storage_bucket": "gusec-a387e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21493594370:android:6e4649f1e8e0ea90bbaa1b",
+        "android_client_info": {
+          "package_name": "com.cfg22.gusec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21493594370-75rvubkqrhmv9c4sraijtebrh4eki1qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cfg22.gusec",
+            "certificate_hash": "026c72d7c6d2330592aa9f66c39da8d1bd4f49cb"
+          }
+        },
+        {
+          "client_id": "21493594370-1ag5sqspn9reqlohm7g7kolm1eb8vufb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOSAPazNWZrecVGorpkfksOviVWyI4W-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21493594370-1ag5sqspn9reqlohm7g7kolm1eb8vufb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
